@@ -36,9 +36,9 @@ const AddProduct = () => {
   });
 
     useEffect(() => {
-        if(!Cookies.get('access-token')) {
-            navigate('/');
-        }
+        // if(!Cookies.get('access-token')) {
+        //     navigate('/');
+        // }
     }, []);
   
 
